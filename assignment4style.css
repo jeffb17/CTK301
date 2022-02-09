@@ -1,0 +1,65 @@
+#turnred {
+  color: orange;
+  background-color: red;
+}
+
+.turnpink {
+  color: pink;
+  background-color: green;
+}
+
+.turngreen{
+  background-color: green
+}
+
+.turnpurple {
+  color: white;
+  background-color: orange;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover  {
+  color: yellow;
+}
+
+footer {
+  background-color: lightblue
+}
+
+#div1 {
+  color: blue;
+  background-color: yellow;
+}
+
+.customtext{
+font-family:sans-serif;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.textjustify{
+  text-align: justify;
+}
+
+.headertext{
+  font-style: italic;
+  font-weight: normal;
+  color: orange
+}
+
+.imgbox{
+  border: 5px black;
+  padding: 10px;
+}
+body{
+  background-image: url(img-4638.jpg)
+}
