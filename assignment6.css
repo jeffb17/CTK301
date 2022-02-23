@@ -1,0 +1,103 @@
+h1 {
+  font-family: helvetica;
+ font-weight:normal;
+ background-color: black;
+ color: white;
+ grid-column: span 3;
+}
+h2{
+  font-family: helvetica;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+#font1{
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: justify;
+}
+body{
+  background-image: url(a62.png);
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 10px;
+  width: 960px;
+  border: 5px solid black;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid:
+}
+
+
+nav li a {
+  display: block;
+  background-color: red;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  grid-column: span 1
+
+}
+nav li {
+  width: 200px;
+ grid-column: span 1;
+}
+
+nav a:hover{
+  color: darkred;
+}
+
+a:hover{
+  color: blue;
+}
+
+nav a:link{
+  color: red;
+font-style: normal;
+}
+
+a:link{
+  color: red;
+  font-weight: bold;
+}
+
+a:visited{
+  color: red;
+}
+
+nav a:visited{
+  color: white;
+}
+
+main {
+  grid-column: span 2;
+}
+
+main img{
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  grid-column: span 2;
+  padding: 10px
+}
+
+footer{
+  font-family: Verdana;
+  font-style: italic;
+  text-align: center;
+  background-color: red;
+  border: 5px solid black;
+  grid-column: span 3
+}
