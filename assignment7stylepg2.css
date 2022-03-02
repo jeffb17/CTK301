@@ -1,0 +1,96 @@
+h1{
+  background-color: blue;
+  margin: 0;
+  padding:10px;
+}
+
+h1 a{
+  color: lightblue;
+}
+
+h1 a:hover{
+  color: blue;
+}
+
+h2{
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+#div1{
+  background-color:blue;
+}
+
+#text1{
+  font-style: justified;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid: span 4
+  background-color: blue;
+}
+
+nav ul li a{
+  background-color: blue;
+}
+
+nav ul li a:hover{
+  color: darkblue;
+}
+
+nav li a {
+  display: block;
+  background-color: blue;
+  padding: 5px;
+  margin: 0px;
+  width: 200px;
+  color: lightblue;
+  text-decoration: none;
+  grid-column: span 4;
+  border: 5px solid blue;
+}
+
+nav li{
+  display: inline-block;
+}
+
+#wrapper {
+  margin: em auto;
+  padding: px;
+  width: 960px;
+  border: 3px solid blue ;
+  background-color: ;
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+}
+
+
+
+main a:link{
+color: red;
+text-decoration: underline;
+font-weight: bold;
+}
+
+main a:hover{
+  color: red;
+}
+
+main a:visited{
+  color: red;
+  font-weight: bold;
+}
+
+main img{
+  border: 3px solid blue;
+  float: right;
+}
+
+footer{
+  border: 5px solid blue;
+  background-color: red;
+}
