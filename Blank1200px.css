@@ -1,0 +1,77 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1{
+  font-size: 35px;
+  color: Red;
+}
+
+h2{
+  font-size: 35px;
+  color: red;
+}
+
+header{
+  grid-column:span 3;
+
+}
+
+#mainimg{
+  width:100%;
+}
+
+#secondimg{
+  width:100%;
+  grid-column: span 4
+}
+
+#picture{
+  grid-column: span 5;
+}
+
+
+main{
+  grid-column:span 4;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+nav ul a{
+  font-size:40px;
+  color:Red;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+#aboutp{
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: left;
+}
+
+footer{
+  grid-column: span 12;
+  font-weight: bold;
+  font-size: 20px;
+  color:red;
+  background-color: black;
+  width: 100%;
+}
