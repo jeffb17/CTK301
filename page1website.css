@@ -1,0 +1,64 @@
+body {
+  background-color: red;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1{
+  font-size: 70px;
+  text-shadow: 20px 20px 20px 20px #000;
+  font-family: 'Creepster', cursive;
+}
+
+
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+nav ul a{
+  font-size:40px;
+  color:black;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+#mainimg{
+  width:75%;
+  border-radius: 20px;
+}
+
+#text1{
+  color:red;
+  background-color: black;
+  border-radius: 10px;
+  font-family: Helvetica;
+  font-size: 45px;
+  grid-column: span 4;
+}
+
+
+main{
+  grid-column:span 6;
+}
+
+footer{
+  grid-column: span 12;
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+  background-color: red;
+  width: 100%;
+}
